@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.wechat-report-venv/
+outputs/
+wechat-reports/
+*.db
+*.db-wal
+*.db-shm
+messages.json
+messages.txt
+report.json
+report.png
+report-*.png
+.env
+all_keys.json

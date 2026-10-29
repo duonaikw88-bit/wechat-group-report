@@ -1,0 +1,12 @@
+wechat-group-report
+
+This project includes portions of TheRaptors/wechat-cli:
+https://github.com/TheRaptors/wechat-cli
+Commit: 6770e1e0c0847e193fb3e3b22e4cd6b93de9aacc
+Licensed under the Apache License, Version 2.0.
+See scripts/vendor/LICENSE-wechat-cli.
+
+Local modifications to scanner_windows.py suppress output and correct Windows
+64-bit ctypes signatures. The application replaces key persistence with an
+in-memory return and implements its own verified committed-WAL replay.
+Other vendored Python files retain upstream implementation and notices.
